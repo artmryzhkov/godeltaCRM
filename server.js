@@ -11,7 +11,7 @@ dotenv.config({ path: './config.env' });
 const app = require('./app');
 
 mongoose.connect(
-  'mongodb+srv://ryzhkovua:fuxsa3-fabNyg-murcew@cluster0.gecj9.mongodb.net/?retryWrites=true&w=majority',
+  'mongodb+srv://ryzhkovua:fuxsa3-fabNyg-murcew@cluster0.gecj9.mongodb.net/myFirstDatabase',
   {
     useNewUrlParser: true,
     useCreateIndex: true,
